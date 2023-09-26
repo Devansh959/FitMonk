@@ -24,6 +24,12 @@
     flex-direction: column;
     gap:5px;
 }
+.footer .error{
+    font-weight: bold;
+    font-size: 0.875rem;
+    color:red;
+    text-align: center;
+}
 .footer button{
     outline: none;
     border: none;
@@ -35,6 +41,9 @@
     padding: 10px 16px;
     width: 100%;
     cursor: pointer;
+}
+.footer button:disabled{
+    background-color: gray;
 }
 .footer p{
     font-weight: 700;
